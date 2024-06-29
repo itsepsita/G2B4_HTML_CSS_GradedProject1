@@ -1,0 +1,76 @@
+.labForm {
+    padding: 50px;
+    overflow-y: scroll;
+    height: 75%;
+}
+
+.labFormDetailsContainer {
+    min-width: auto;
+    width: 550px;
+    margin: 10px;
+}
+
+img {
+    position: absolute;
+    top: 70px;
+    left: auto;
+    max-width: auto;
+    background-size: cover;
+    display: block;
+    min-width: fit-content;
+    height: 450px;
+    box-sizing: border-box;
+    margin-left: 600px;
+    width: 605px;
+}
+
+.labFormContainer {
+    min-width: 1280px;
+    max-width: 1280px;
+    margin: auto;
+    height: 450px;
+    margin-top: 70px;
+    box-shadow: 4px 1px 20px 1px;
+}
+
+input {
+    padding: 5px;
+    min-height: 18px;
+    min-width: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: none;
+    border-bottom: 2px solid gray;
+}
+
+select {
+    height: 50px;
+    width: 185px;
+    border: 2px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+label {
+    font-size: 21px;
+}
+
+.resetBtn,
+.submitBtn {
+    position: relative;
+    top: auto;
+    background-color: rgba(169, 70, 194, 0.84);
+    color: white;
+    border-radius: 4px;
+    margin-right: 50px;
+    padding: 5px;
+    min-width: 82px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: auto;
+}
+
+.resetSubmitBtnContainer {
+    position: relative;
+    top: auto;
+    left: 385px;
+}

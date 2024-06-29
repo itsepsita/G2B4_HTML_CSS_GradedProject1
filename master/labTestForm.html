@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test Form</title>
+</head>
+
+<body>
+    <div class="labFormContainer">
+
+        <div class="labForm">
+            <div class="labFormDetailsContainer">
+                <img src="./Images/Lab-Test/lab-test.jpg" alt="">
+                <h2>1. Your Contact Details</h2>
+                <form action="#" method="post" autocomplete>
+
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Patient Id if Exists">
+                    <input type="text" placeholder="Contact Number">
+                    <input type="email" name="email" id="" placeholder="Email Id">
+                    <br><br>
+                    <h2>2. Address</h2>
+                    <input type="text" placeholder="H-No">
+                    <input type="text" placeholder="Street">
+                    <input type="text" placeholder="Area">
+
+                    <br><br>
+                    <h3>District </h3>
+                    <select name="list" id="">
+                        <option value="Choose" selected>Choose</option>
+                        <option value="EastDistrict">East District</option>
+                        <option value="WestDistrict">West District</option>
+                        <option value="NorthDistrict">North District</option>
+                        <option value="SouthDistrict">South District</option>
+                    </select>
+
+                    <br><br>
+                    <h3>
+                        Choose Test Type *(Check altleast one box without Fail).
+                    </h3>
+                    <input type="checkbox" name="Tests" id="testType" value="CBC">
+                    <label for="testType">CBC</label>
+                    <br>
+                    <input type="checkbox" name="Tests" id="Complete Urine" value="Complete Urine">
+                    <label for="Complete Urine">Complete Urine</label><br>
+                    <input type="checkbox" name="Tests" id="lipid profile" value="Lipid Profile">
+                    <label for="lipid profile">Lipid Profile</label><br>
+                    <input type="checkbox" name="Tests" id="Thyroid Stimulating Hormone(TSH)"
+                        value="Thyroid Stimulating Hormone(TSH)">
+                    <label for="Thyroid Stimulating Hormone(TSH)">Thyroid Stimulating Hormone(TSH)</label><br>
+
+                    <input type="checkbox" name="testType" id="Glucose Test" value="Glucose Test">
+                    <label for="Glucose Test"> Glucose Test </label>
+
+                    <br><br>
+                    <h3> Do you want a hard copy of the report also?</h3>
+                    <input type="radio" name="ReportCopy" id="">
+                    <label for="ReportCopy">Yes</label>
+                    <input type="radio" name="ReportCopy" id="">
+                    <label for="ReportCopy">No</label><br>
+
+                    <br><br>
+                    <h3>Select Your Comfortable Date and Time</h3>
+                    <label for="dateTime">Date :-</label>
+                    <input type="date" name="dateTime" id="">
+                    <br>
+                    <label for="Time">Time :-</label>
+                    <input type="time" name="dateTime" id="">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="resetSubmitBtnContainer">
+            <input class="resetBtn" type="reset" value="Reset">
+            <input class="submitBtn" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+    <link rel="stylesheet" href="labTestFormStyle.css">
+</body>
+
+</html>
